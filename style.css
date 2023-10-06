@@ -1,0 +1,183 @@
+
+body, h1, h2, p, ul, li, address {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    color: #333;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.headerbanner img {
+    width: 100%;
+    max-height: 275px;
+    object-fit: cover;
+    object-position: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.subheading{
+    margin: 10px 0;
+}
+
+.aboutusdesc{
+    width: 75%;display: inline-block;
+}
+
+.aboutusimage{
+    width: 20%;vertical-align: middle;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menuheading{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.menudesc{
+    margin-bottom: 35px;
+}
+
+.menuimages{
+    width: 400px;
+    height: 300px;
+}
+
+.menusection {
+    display: inline-block;
+    width: 30.3%;
+    text-align: center; 
+}
+
+.menusection ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menusection li {
+    display: inline-block; 
+    vertical-align: top; 
+    margin: 20px;
+}
+
+.menusection img {
+    max-width: 100%;
+}
+
+.menusection p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.menusection p strong {
+    font-weight: bold;
+}
+
+.blogsheading{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.blogsection{
+    display: inline-block;
+    width: 47%;
+}
+
+.blogimages{
+    width: 350px;
+    height: 300px;
+}
+
+.blogsection ul li {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-section {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%; 
+    padding-right: 3%;
+    border-right: 1px solid #777;
+    text-align: center;
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.bottom-footer {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.bottom-footer p {
+    margin: 0;
+}
